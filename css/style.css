@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: 'Open Sans', sans-serif;
+	color:#464646;
+	font-size:14px;
+}
+.table {
+	border:1px solid #bec6c8;
+}
+.table th, .table td, .table thead th {
+	border:none;
+}
+tr th {
+	background-color:#1b95b4;
+	color:#fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+	background-color:#e9f0fa;
+}
+.modal-header {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    padding: 8px 1rem;
+    background-color: #4b5f82;
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+label {
+	color:#000;
+	margin:0px;
+}
+.form-control {
+    font-size: 14px;
+    border-radius: 0px;
+    height: 35px;
+}
+.sub-btn {
+    background-color: #78bf3f;
+    border-color: #78bf3f;
+    border-radius: 0px;
+    font-weight: 600;
+}
+.cancel-btn {
+    background-color: #f25657;
+    border-color: #f25657;
+    border-radius: 0px;
+    font-weight: 600;
+}
+.sub-btn:hover {
+    background-color: #79d232;
+    border-color: #79d232;
+}
+.cancel-btn:hover {
+    background-color: #ff5a5b;
+    border-color: #ff5a5b;
+}
+.modal-content{
+	background-color: #eef2fb;
+	border-radius:0px;
+}
+
+@media (min-width:1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}

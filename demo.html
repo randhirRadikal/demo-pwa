@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Zabingo PWA</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="index.js" defer></script>
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="shortcut icon" href="./img/fav-icon.png" />
+
+  <script type="text/javascript" src="./js/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/popper.min.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+</head>
+<body style="padding:0px; margin:0px;">
+  <section id="logo">
+    	<div class="container text-center my-3">
+        	<a href="#"><img src="img/logo.png" alt="" class="img-fluid" /></a>
+        </div>
+    </section>
+
+    <section id="table">
+    	<div class="container mt-5">
+          <div style="border:1px solid #bec6c8; border-bottom:none;">
+		  <button class="add-button">Add to home screen</button>
+          	<div class="employe float-right mx-3 my-2"><strong>Add Employee</strong> <a href="#" data-toggle="modal" data-target="#myModal"><img src="img/add-employee.png" alt="" class="img-fluid ml-2" /></a></div>
+            <div class="clearfix"></div>
+          </div>
+          <div style="overflow-x:auto;">
+              <table class="table table-striped text-center">
+                <thead>
+                  <tr>
+                    <th>Sl No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Sync Status</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1.</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td><a href="#" data-toggle="popover" data-trigger="hover" data-content="Sync pending"><i class="fas fa-circle" style="color:#ff6434;"></i></a></td>
+                    <td>
+                        <ul class="list-unstyled m-0" style="white-space:nowrap;">
+                            <li class="d-inline-block mr-2"><a href="#"><img src="img/delete.png" alt="" class="img-fluid" /></a></li>
+                            <li class="d-inline-block ml-2"><a href="#"><img src="img/peast.png" alt="" class="img-fluid" /></a></li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2.</td>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td><a href="#"><i class="fas fa-circle" style="color:#74c044;"></i></a></td>
+                    <td>
+                        <ul class="list-unstyled m-0" style="white-space:nowrap;">
+                            <li class="d-inline-block mr-2"><a href="#"><img src="img/delete.png" alt="" class="img-fluid" /></a></li>
+                            <li class="d-inline-block ml-2"><a href="#"><img src="img/peast.png" alt="" class="img-fluid" /></a></li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3.</td>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td><a href="#"><i class="fas fa-circle" style="color:#74c044;"></i></a></td>
+                    <td>
+                        <ul class="list-unstyled m-0" style="white-space:nowrap;">
+                            <li class="d-inline-block mr-2"><a href="#"><img src="img/delete.png" alt="" class="img-fluid" /></a></li>
+                            <li class="d-inline-block ml-2"><a href="#"><img src="img/peast.png" alt="" class="img-fluid" /></a></li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>4.</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td><a href="#"><i class="fas fa-circle" style="color:#74c044;"></i></a></td>
+                    <td>
+                        <ul class="list-unstyled m-0" style="white-space:nowrap;">
+                            <li class="d-inline-block mr-2"><a href="#"><img src="img/delete.png" alt="" class="img-fluid" /></a></li>
+                            <li class="d-inline-block ml-2"><a href="#"><img src="img/peast.png" alt="" class="img-fluid" /></a></li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>5.</td>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td><a href="#"><i class="fas fa-circle" style="color:#74c044;"></i></a></td>
+                    <td>
+                        <ul class="list-unstyled m-0" style="white-space:nowrap;">
+                            <li class="d-inline-block mr-2"><a href="#"><img src="img/delete.png" alt="" class="img-fluid" /></a></li>
+                            <li class="d-inline-block ml-2"><a href="#"><img src="img/peast.png" alt="" class="img-fluid" /></a></li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>6.</td>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td><a href="#" data-toggle="popover" data-trigger="hover" data-content="Sync pending"><i class="fas fa-circle" style="color:#ff6434;"></i></a></td>
+                    <td>
+                        <ul class="list-unstyled m-0" style="white-space:nowrap;">
+                            <li class="d-inline-block mr-2"><a href="#"><img src="img/delete.png" alt="" class="img-fluid" /></a></li>
+                            <li class="d-inline-block ml-2"><a href="#"><img src="img/peast.png" alt="" class="img-fluid" /></a></li>
+                        </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>7.</td>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td><a href="#"><i class="fas fa-circle" style="color:#74c044;"></i></a></td>
+                    <td>
+                        <ul class="list-unstyled m-0" style="white-space:nowrap;">
+                            <li class="d-inline-block mr-2"><a href="#"><img src="img/delete.png" alt="" class="img-fluid" /></a></li>
+                            <li class="d-inline-block ml-2"><a href="#"><img src="img/peast.png" alt="" class="img-fluid" /></a></li>
+                        </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+    </section>
+
+
+    <!-- The Modal -->
+      <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <div class="modal-title text-white">Add Employee</div>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+              <form action="" method="post" accept-charset="utf-8" id="contactForm" name="contactForm" class="contact-form">
+              <input type="hidden" name="todo" value="submit">
+               	<div class="form-group">
+                	<label for="usr">First Name:</label>
+                	<input type="text" class="form-control" id="fname" placeholder="First Name*" name="fname" required="required">
+                </div>
+                <div class="form-group">
+                	<label for="usr">Last Name:</label>
+                 	<input type="text" class="form-control" id="lname" placeholder="Last Name*" name="lname" required="required">
+               	</div>
+
+                <div class="float-right">
+                    <button type="button" class="btn btn-danger text-white px-4 py-1 cancel-btn mr-1" data-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary text-white px-4 py-1 sub-btn ml-1">Submit</button>
+                </div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <script>
+          
+      </script>
+</body>
+</html>
